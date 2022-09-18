@@ -411,26 +411,6 @@ def install_missing_module(current_install_module):
 
 	return current_module, installed_modules_list
 
-# def set_process_state(bool_state):
-# 	"""sets the variable start_process_state to bool_state value
-
-# 	Parameters
-# 	----------
-# 	parameter_one : str: bool_state
-# 		description: a variable holding the sting value 'True' or
-#       'False'
-
-# 	Returns
-# 	-------
-# 	return: bool: start_process_state
-# 		description: returns the variable start_process_state set to a
-#       boolian value of either 'True' or 'False'
-# 	"""
-
-# 	start_process_state = bool_state
-
-# 	return start_process_state
-
 def run_progress_bar():
 	"""displays a progress bar during module installation when called by
 	install_missing_required_modules(missing_modules_list)
