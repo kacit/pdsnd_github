@@ -237,25 +237,6 @@ def clear_console():
 
 	os.system('cls||clear')
 
-# def all_terms_clear():
-# 	"""clears the console when called
-
-# 	Parameters
-# 	----------
-# 	parameter : nil
-# 		description: nil
-
-# 	Returns
-# 	-------
-# 	return: clears the console when called
-# 		description: clears the console when called
-# 	"""
-
-# 	cls = lambda: system("cls")
-# 	cls()
-
-# 	print("\033[H\033[J")
-
 def pause(secs):
 	"""a convenience function to pause the code execution for a input
 	length of time
