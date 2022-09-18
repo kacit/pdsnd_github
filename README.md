@@ -1,6 +1,9 @@
 ### Date created
 16th September 2022
 
+### Last update
+18th September 2022
+
 ### Project Title
 An application to display and analyse Bikeshare data for the US
 cities of Chicago, New York City and Washington
