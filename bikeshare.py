@@ -773,47 +773,6 @@ def enable_colorama_functionality():
 			choose_all_or_some_cols_str = input(f"{choose_all_or_some_cols_str_text_block_one_shaped}{choose_all_or_some_cols_str_text_block_two_shaped}{choose_all_or_some_cols_str_text_block_three_shaped}{choose_all_or_some_cols_str_text_block_four_shaped}{choose_all_or_some_cols_str_text_block_five_shaped}{choose_all_or_some_cols_str_text_block_six_shaped}")
 
 			return choose_all_or_some_cols_str
-   
-		def full_data_display_warning_input_str():
-			"""composes a message warning the user of the risk of
-			choosing to dispay all dataset columns in one go
-
-			Parameters
-			----------
-			parameter : nil
-				description: nil
-
-			Returns
-			-------
-			return: str: full_data_display_warning_input_str
-				description: returns a variable containing a message
-				string  warning the user of the risk of choosing to
-				dispay all dataset columns in one go
-			"""
-
-			full_data_display_warning_input_str_text_block_one = (f"{Fore.CYAN}\n\n\n{console_width_text_border}\n\n{Fore.YELLOW}WARNING! DISPLAYING ALL DATASET ROWS IN A SINGLE OPERATION MAY TAX YOUR COMPUTER'S RESOURCES!{Fore.CYAN}\n\n{Style.RESET_ALL}")
-
-			full_data_display_warning_input_str_text_block_two = (f"{Fore.CYAN}If you wish to proceed:\n\n{console_width_text_border}\n\n{Style.RESET_ALL}")
-
-			full_data_display_warning_input_str_text_block_three = (f"{Fore.CYAN} * hit {Fore.MAGENTA}ENTER{Fore.CYAN} to continue\n\n{Style.RESET_ALL}")
-
-			full_data_display_warning_input_str_text_block_four = (f"{Fore.CYAN} * or {Fore.MAGENTA}x{Fore.CYAN} to exit\n\n{Style.RESET_ALL}")
-
-			full_data_display_warning_input_str_text_block_five = (f"{Fore.CYAN}\n\n >>> {Style.RESET_ALL}")
-
-			full_data_display_warning_input_str_text_block_one_shaped = wrap_console_text_display(full_data_display_warning_input_str_text_block_one)
-
-			full_data_display_warning_input_str_text_block_two_shaped = wrap_console_text_display(full_data_display_warning_input_str_text_block_two)
-
-			full_data_display_warning_input_str_text_block_three_shaped = wrap_console_text_display(full_data_display_warning_input_str_text_block_three)
-
-			full_data_display_warning_input_str_text_block_four_shaped = wrap_console_text_display(full_data_display_warning_input_str_text_block_four)
-
-			full_data_display_warning_input_str_text_block_five_shaped = wrap_console_text_display(full_data_display_warning_input_str_text_block_five)
-
-			full_data_display_warning_input_str = input(f"{full_data_display_warning_input_str_text_block_one_shaped}{full_data_display_warning_input_str_text_block_two_shaped}{full_data_display_warning_input_str_text_block_three_shaped}{full_data_display_warning_input_str_text_block_four_shaped}{full_data_display_warning_input_str_text_block_five_shaped}")
-
-			return full_data_display_warning_input_str
 
 		def q_data_analysis_options():
 			"""composes a message asking the user to choose a data
